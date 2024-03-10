@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Empty case 1`] = `
+<div>
+  <p
+    class="warningText"
+  >
+    <br />
+    <br />
+    <br />
+    <big>
+      Well schematic will be shown after well trajectory and well segments are created.
+    </big>
+  </p>
+</div>
+`;
+
+exports[`Initial message 1`] = `
+<div>
+  <p
+    class="warningText"
+  >
+    <br />
+    <br />
+    <br />
+    <big>
+      Loading well schematic...
+    </big>
+  </p>
+</div>
+`;

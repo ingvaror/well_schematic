@@ -1,0 +1,6 @@
+.st_cemented {
+    fill: url(#cemented);
+    shape-rendering: crispEdges;
+    stroke-width: 0.01;
+    stroke: #49494B;
+}

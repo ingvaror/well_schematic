@@ -1,0 +1,8 @@
+.selectedContour {
+    fill: #e8b11a;
+}
+
+.notSelectedContour {
+    fill: transparent;
+    stroke-width: 0px;
+}

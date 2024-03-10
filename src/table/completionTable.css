@@ -1,0 +1,103 @@
+.completionDescription {
+	border-collapse: separate;
+	border-spacing: 0;
+	border-color: darkgray;
+	border-left: 0.1px solid;
+	font-family: sans-serif;
+	font-size: 13px;
+	width: 100%;
+	table-layout: fixed;
+}
+
+	.completionDescription th {
+		border-right: 0.1px solid;
+		border-bottom: 0.1px solid;
+		border-top: 0.1px solid;
+		font-weight: bold;
+		word-break: normal;
+		position: sticky;
+		top: 0;
+	}
+
+	.completionDescription .thItem {
+		font-weight: bold;
+		background-color: #FFFF99;
+	}
+
+	.completionDescription .thDepth {
+		font-weight: bold;
+		background-color: #FFFFFF;
+	}
+
+	.completionDescription .thDescription {
+		font-weight: bold;
+		background-color: #FFFFCC;
+	}
+
+	.completionDescription .thDiameter {
+		font-weight: bold;
+		background-color: #FFCCFF;
+	}
+
+	.completionDescription .thUserNotes {
+		font-weight: bold;
+		background-color: #FFFFCC;
+		width: "5%";
+		word-wrap: break-word;
+		/*		white-space: nowrap;*/
+	}
+
+	.completionDescription td {
+		border-right: 0.1px solid;
+		border-bottom: 0.1px solid;
+		text-align: center;
+	}
+
+	.completionDescription .tdItem {
+		background-color: #FFFF99;
+	}
+
+	.completionDescription .tdItemSelected {
+		background-color: #e8b11a;
+	}
+
+	.completionDescription .tdDepth {
+		background-color: #FFFFFF;
+	}
+
+	.completionDescription .tdDepthSelected {
+		background-color: #e8b11a;
+	}
+
+	.completionDescription .tdDescription {
+		font-weight: bold;
+		background-color: #FFFFCC;
+	}
+
+	.completionDescription .tdDescriptionSelected {
+		font-weight: bold;
+		background-color: #e8b11a;
+	}
+
+	.completionDescription .tdUserNotes {
+		font-weight: bold;
+		background-color: #FFFFCC;
+		width: "5%";
+		word-wrap: break-word;
+		/*		white-space: nowrap;*/
+	}
+
+	.completionDescription .tdUserNotesSelected {
+		font-weight: bold;
+		background-color: #e8b11a;
+		width: "5%";
+/*		white-space: nowrap;*/
+	}
+
+	.completionDescription .tdDiameter {
+		background-color: #FFCCFF;
+	}
+
+	.completionDescription .tdDiameterSelected {
+		background-color: #e8b11a;
+	}	
